@@ -3,6 +3,7 @@
     OrbitControls
     three.js
     STLoader
+    Made by Timoz Dimitri
 */
 
 class Visualisator3D extends HTMLElement {
