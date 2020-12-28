@@ -18,8 +18,8 @@ Add the libraries to your html file.
 ```html
  <object-viewer style=" background-color: COLOR; width: Xpx; height: Xpx;" opacity="1.0" src="OBJECT.stl"  zoom="70" color="COLOR"/>
 ```
-The size and color background have to be settings in the style attribute.
-The opacity is a float between 0.0 and 1.0
-The src is the source of a 3d object of the STL format.
-The zoom is an integer relative to the size of the contener.
-The color is the color of the object.
+The <b>size</b> and <b>color background</b> have to be settings in the style attribute. <br>
+The <b>opacity</b> is a float between 0.0 and 1.0 <br>
+The <b>src</b> is the source of a 3d object of the STL format. <br>
+The <b>zoom</b> is an integer relative to the size of the contener. <br>
+The <b>color</b> is the color of the object.
