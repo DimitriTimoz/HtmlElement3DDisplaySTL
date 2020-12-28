@@ -9,6 +9,7 @@
 class Visualisator3D extends HTMLElement {
     constructor(){
         super();
+        
           
     }
     updateZoom (){
@@ -77,11 +78,12 @@ class Visualisator3D extends HTMLElement {
         });
 
         this.render();
-        
+      
       
     }
 
     connectedCallback() {
+        this.style.display = "block";
         this.color = this.getAttribute('color') || 0x000000,
         this.zoom = this.getAttribute('zoom') || 20,
         this.opacity = parseFloat(this.getAttribute('opacity')) || 1.0
