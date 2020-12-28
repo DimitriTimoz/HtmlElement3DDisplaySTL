@@ -8,10 +8,9 @@ Add the libraries to your html file.
 ```html
 <script src="three.js"></script>
 <script src="STLLoader.js"></script>
-<script src="OrbitControls.js"></script>
+<script src="objectVisualisator.js"></script>
 ```
 [Download](https://threejs.org/build/three.js) Three.js <br />
-[Download](https://github.com/mrdoob/three.js/blob/master/examples/js/loaders/STLLoader.js) STLLoader <br />
 [Download](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/OrbitControls.js) OrbitControls <br />
 
 # How to use
